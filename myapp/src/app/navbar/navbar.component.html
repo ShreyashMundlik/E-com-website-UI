@@ -1,0 +1,32 @@
+<div class="container">
+  <div class="row">
+    <nav class="navbar navbar-light bg-warning" style="border-radius: 8px;">
+  <a class="navbar-brand" ><img src="../../assets/Images/logo.png" alt="" width="150px" height="75px" style="filter: invert(100%);"></a>
+  <a class="navbar-brand"href="" routerLink="home">Home</a>
+  <a class="navbar-brand" href="">About_us</a>
+  <a class="navbar-brand" href="">Contact</a>
+  <a class="navbar-brand" href="">Wishlist</a>
+  <button class="btn btn-outline-danger" (click)="signOut()"><i class="fa fa-sign-out" aria-hidden="true"></i></button>
+  <form class="form-inline ">
+    <input class="col-6 mt-3" style="border-radius: 10px;" type="search" [(ngModel)]="search" placeholder="Search" id="searchbox" aria-label="Search">
+    <button class="btn btn-outline-success m-2 mt-1" type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+  </form>
+  <button class="btn btn-warning m-4 mt-4" style="display: flex;" (click)="open(content)"><i class="fa fa-ellipsis-v" aria-hidden="true"></i></button>
+
+</nav>
+<ng-template #content let-offcanvas>
+	<div class="offcanvas-header">
+		<h4 class="offcanvas-title">Select section</h4>
+		<button type="button" class="btn-close" aria-label="Close" (click)="offcanvas.dismiss('Cross click')"></button>
+	</div>
+	<div class="offcanvas-body">
+     <button class="btn btn-lg  m-2">User  <i class="fa fa-user-circle" aria-hidden="true"></i></button><br>
+     <button class="btn btn-lg  m-2" [routerLink]="['update']" >Update Profile  <i class="fa fa-pencil-square-o" aria-hidden="true"></i></button><br>
+     <button class="btn btn-lg  m-2" (click)="deleteAccount()">Delete Account  <i class="fa fa-trash" aria-hidden="true"></i></button><br>
+     <button class="btn btn-lg  m-2" (click)="signOut()">Sign Out  <i class="fa fa-sign-out" aria-hidden="true"></i></button><br>
+    
+	</div>
+</ng-template>
+
+</div>
+</div>

@@ -1,0 +1,19 @@
+<div class="container">
+    <div class="row ">
+      <header class="bg-secondary col-6">Shirts Section
+        <input class="col-3 " style="border-radius: 10px; float: right;" type="search" [(ngModel)]="search" placeholder="Search" id="searchbox" aria-label="Search">
+      </header>
+        <div *ngFor="let s of shirts | filter:search" class="card m-2" style="width: 18rem;">
+            <img class="card-img-top" src="{{s.img}}" alt="Card image cap" width="286px" height="186px">
+            <div class="card-body">
+              <h5 class="card-title">{{s.name}}</h5>
+              <p class="card-text">
+                {{s.price|currency:"INR"}}<br>
+                {{s.brand}}<br>
+                {{s.color}}<br>
+              </p>
+              <a  class="btn btn-primary" (click)="cartProduct(s)">Buy</a>
+            </div>
+          </div>
+    </div>
+</div>

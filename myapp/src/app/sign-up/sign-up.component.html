@@ -1,0 +1,67 @@
+
+<div class="container">
+  <header>
+    <img class="rounded mx-auto d-block" src="../../assets/Images/logo.png" alt="">
+  </header>
+    <img  class="rounded mx-auto d-block" style="margin-top: 120px;" src="../../assets/Images/login logo.png" alt="" width="150px" height="100px">
+    <h3 style="text-align: center;color:white ; ">SignUp</h3>
+    <div class="row">
+        <div class="col-3"></div>
+        <div class="col-6">
+            <form #myForm="ngForm" (ngSubmit)="sign(myForm.value)">
+            <label for="">Enter Full name</label>
+            <input class="form-control" type="text" name="fname" #fname="ngModel"  placeholder="first name" required ngModel >
+            <span *ngIf="fname.invalid&&fname.touched" style="color: red;">
+                <span *ngIf="fname.errors?.['required']">
+                  firstname is required!
+                </span>   
+                <span *ngIf="fname.errors?.['pattern']">
+                  username is invalid. atleast 3 letters (max 30)!
+                </span>   
+              </span><br>
+            <label for="">Enter Email Id</label>
+            <input class="form-control" type="email" name="email" #email="ngModel"  placeholder="last name" required ngModel>
+            <span *ngIf="email.invalid&&email.touched" style="color: red;">
+              <span *ngIf="email.errors?.['required']">
+                Email is required!
+              </span>   
+              <span *ngIf="email.errors?.['pattern']">
+                Email is invalid. atleast 3 letters (max 30)!
+              </span>   
+            </span><br>
+            <label for="">Enter preferred username</label>
+            <input class="form-control" type="text"name="username" #username="ngModel" pattern="[a-zA-Z]{3,30}" placeholder="username" required ngModel>
+            <span *ngIf="username.invalid&&username.touched" style="color: red;">
+              <span *ngIf="username.errors?.['required']">
+                username is required!
+              </span>   
+              <span *ngIf="username.errors?.['pattern']">
+                username is invalid. atleast 3 letters (max 30)!
+              </span>   
+            </span><br>
+            <label for="">Enter Password</label>
+            <input class="form-control" type="password"name="password" #password="ngModel" minlength="5" placeholder="password" required ngModel>
+            <span *ngIf="password.invalid&& password.touched" style="color: red;">
+              <span *ngIf="password.errors?.['required']">
+                password is required!
+              </span>   
+              <span *ngIf="password.errors?.['minlength']">
+                password is invalid. password minlength should be 5!
+              </span>   
+            </span><br>
+            <label for="">Confirm Password</label>
+            <input class="form-control" type="password"name="password" #password="ngModel" placeholder="Confirm-password" required ngModel>
+            <span *ngIf="password.invalid&& password.touched" style="color: red;">
+              <span *ngIf="password.errors?.['required']">
+                password is required!
+              </span>   
+              <span *ngIf="password.errors?.['minlength']">
+                password is invalid. password minlength should be 5!
+              </span>   
+            </span><br>
+            <button type="submit" class="btn btn-outline-success col-12" [disabled]="myForm.invalid">SignUp</button>
+        </form>
+        </div>
+        <div class="col-3"></div>
+    </div>
+</div>

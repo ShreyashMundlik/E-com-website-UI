@@ -1,0 +1,24 @@
+
+<div class="container">
+    <header>
+        <img class="rounded mx-auto d-block" src="../../assets/Images/logo.png" alt="">
+      </header>
+    <img  class="rounded mx-auto d-block " style="margin-top: 120px;" src="../../assets/Images/login logo.png" alt="" width="150px" height="100px">
+<h3 style="text-align: center;color: aliceblue; ">Login</h3>
+<div class="row">
+    <div class="col-4"></div>
+       <div class="col-sm-4">
+    <form>
+        <label class=""for="">Enter Username</label>
+        <input class="form-control" name="username" type="text" placeholder="enter your username" [(ngModel)]="uname"><br>
+        <label class="" for="">Enter Password</label>
+        <input class="form-control" type="password" name="password" placeholder="enter your password" [(ngModel)]="upass"><br>
+        <button type="submit" class="btn btn-outline-primary col-12" (click)="getData()">Login</button><br>
+        <a href="" routerLink="sign-up" class="col-12">Don't have an account? Register here</a>
+    </form>
+       </div>
+
+       
+</div>
+</div>
+

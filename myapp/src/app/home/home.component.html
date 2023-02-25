@@ -1,0 +1,46 @@
+<div class="container">
+  <div class="row">
+    <h2 *ngIf="router.url=='/home'" style="color: purple; margin-left: 10px; font-family: cursive; ">Welcome to</h2> 
+    <img *ngIf="router.url=='/home'" src="../../assets/Images/logo.png" style="filter: invert(100%);" width="250px" height="350px" alt="">
+    <div class="" id="welcome">
+      <button class="btn btn-outline-info m-2" routerLink="mobiles">Mobiles</button>
+      <button class="btn btn-outline-info m-2">Laptops</button>
+      <button class="btn btn-outline-info m-2" routerLink="clothes">Clothes</button>
+      <button class="btn btn-outline-info m-2" routerLink="footwear">Footwear</button>
+      <button class="btn btn-outline-info m-2">Electronics</button>
+      <button class="btn btn-outline-info m-2">Mobile Acessories</button>
+    </div>
+  </div>
+  <div  class="row">
+    <router-outlet></router-outlet>
+  </div>
+
+  <div *ngIf="router.url=='/home'">
+  <div  class="row">
+    <ngb-carousel *ngIf="popularProducts">
+      <ng-template ngbSlide *ngFor="let p of popularProducts">
+        <div class="picsum-img-wrapper ">
+          <img class="rounded mx-auto d-block " id="carousal1"  src="{{p.imgPath}}" alt="Random first slide" />
+        </div><br><br><br><br><br><br>
+        <div class="carousel-caption " id="details">
+          <p>{{p.brand}}</p><br>
+          <h3>{{p.name}}</h3>
+          <p style="font-weight: bolder;">{{p.price |currency:"INR"}}</p><br>
+        </div>
+      </ng-template>
+    </ngb-carousel>
+  </div>
+</div>
+<div *ngIf="router.url=='/home'">
+<div class="row">
+  <h3 style="text-align: center;">New Launch</h3>
+  <img src="https://m.media-amazon.com/images/G/31/img21/Wireless/katariy/Apple/2022/i14/Aplus_14pro/iPhone_14_Pro_Product_Page_Flex_Module_Avail_Amazon_Desktop__en-IN_01._CB609619398_.jpg" alt="">
+  <img src="https://m.media-amazon.com/images/G/31/img21/Wireless/katariy/Apple/2022/i14/Aplus_14pro/iPhone_14_Pro_Product_Page_Flex_Module_Avail_Amazon_Desktop__en-IN_02._CB609619398_.jpg" alt="">
+<img src="https://m.media-amazon.com/images/G/31/img21/Wireless/katariy/Apple/2022/i14/Aplus_14pro/iPhone_14_Pro_Product_Page_Flex_Module_Avail_Amazon_Desktop__en-IN_05._CB609619398_.jpg" alt=""> 
+ <img src="https://m.media-amazon.com/images/G/31/img21/Wireless/katariy/Apple/2022/i14/Aplus_14pro/iPhone_14_Pro_Product_Page_Flex_Module_Avail_Amazon_Desktop__en-IN_06._CB609619398_.jpg" alt="">
+  <img src="https://m.media-amazon.com/images/G/31/img21/Wireless/katariy/Apple/2022/i14/Aplus_14pro/iPhone_14_Pro_Product_Page_Flex_Module_Avail_Amazon_Desktop__en-IN_07._CB609619398_.jpg" alt="">
+  <img src="https://m.media-amazon.com/images/S/aplus-media-library-service-media/ab819847-0e2e-4ae2-90e1-5df6e5f535b8.__CR0,0,1464,600_PT0_SX1464_V1___.jpg" alt="">
+</div>
+</div>
+   
+</div>

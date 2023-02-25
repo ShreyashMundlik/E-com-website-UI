@@ -1,0 +1,30 @@
+<p>cart works!</p>
+
+<div class="container">
+    <div class="row table table-light">
+        <table>
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Brand</th>
+                    <th>Image</th>
+                    <th>Name</th>
+                    <th>Color</th>
+                    <th>Price</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let c of CartProducts">
+                    <td>{{c.id}}</td>
+                    <td>{{c.Brand}}</td>
+                    <td><img src={{c.img}} alt="" height="150px" width="100 px"></td>
+                    <td>{{c.name}}</td>
+                    <td>{{c.Color}}</td>
+                    <td>{{c.price | currency: 'INR'}}</td>
+                    <td><button class="btn btn-outline-danger" (click)="delete(c.id)"><i class="fa fa-trash" aria-hidden="true"></i></button></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

@@ -1,0 +1,14 @@
+.container{
+    background-image: url(../../assets/Images/pexels-photo-1229861.webp);
+    padding: 18px;
+    color: aliceblue;
+    height: 650px;
+    
+}
+header img{
+    
+    float: left;
+    width: 300px;
+    
+}
+

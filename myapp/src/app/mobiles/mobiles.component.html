@@ -1,0 +1,17 @@
+<div class="container">
+    <div class="row">
+      <header class="bg-secondary col-6">Mobile Section
+      <input class="col-3 " style="border-radius: 10px; float: right;" type="search" [(ngModel)]="search" placeholder="Search" id="searchbox" aria-label="Search">
+    </header>
+        <div *ngFor="let m of mobile | filter:search "  class="card m-2" style="width: 18rem;">
+            <img class="card-img-top" src="{{m.imgPath}}" alt="Card image cap" height="286px">
+            <div class="card-body">
+              <h5 class="card-title">{{m.name}}</h5>
+              <p class="card-text">
+                {{m.price |currency:"INR"}}
+              </p>
+              <a class="btn btn-primary"  (click)="cartProduct(m)">Buy</a>
+            </div>
+          </div>
+    </div>
+</div>

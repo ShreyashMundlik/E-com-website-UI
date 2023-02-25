@@ -1,0 +1,19 @@
+<div class="container">
+    <div class="card ">
+        <div class="card-header ">
+            <div *ngIf="router.url != '/' && router.url != '/login' && router.url != '/sign-up' && router.url != '/error'" >
+                <app-navbar></app-navbar>
+           </div>
+        </div>
+        <div class="row">   
+        <div class="card-body ">
+            <router-outlet></router-outlet>
+        </div>    
+    </div> 
+        <div class="card-footer ">
+            <div *ngIf="router.url != '/' && router.url != '/login' && router.url != '/sign-up' && router.url !='/error'" >
+                <app-footer></app-footer >
+           </div>
+        </div>    
+    </div>
+</div>

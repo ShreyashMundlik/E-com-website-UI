@@ -1,0 +1,534 @@
+{
+  "Users": [
+    {
+      "id": 101,
+      "username": "shreya",
+      "password": "pass@123"
+    },
+    {
+      "username": "akya",
+      "password": "pass123",
+      "id": 103
+    },
+    {
+      "username": "Rushi",
+      "password": "admin@123",
+      "id": 104
+    },
+    {
+      "fname": "Sumit Patil",
+      "email": "sumitp@gmail.com",
+      "username": "sumya",
+      "password": "admin@1234",
+      "id": 105
+    }
+  ],
+  "Mobiles": [
+    {
+      "id":201,
+      "Brand": "Brand: Apple",
+      "name": "Apple iPhone 13 (256GB) - (Product) RED",
+      "price": 100000,
+      "img": "https://m.media-amazon.com/images/I/71gm8v4uPBL._SL1500_.jpg"
+    },
+    {
+      "id":202,
+      "Brand": "Brand: Apple",
+      "name": "Apple iPhone 14 Pro 128GB Space Black",
+      "price": 122999,
+      "img": "https://m.media-amazon.com/images/I/61XO4bORHUL._SL1500_.jpg"
+    },
+    {
+      "id":203,
+      "Brand": "Brand: Apple",
+      "name": "Apple iPhone 13 Mini (256 GB) - Green",
+      "price": 74900,
+      "img": "https://m.media-amazon.com/images/I/61cMQeVEGKL._SL1500_.jpg"
+    },
+    {
+      "id":204,
+      "Brand": "Brand: Apple",
+      "name": "Apple iPhone 14 Pro Max 128GB Gold",
+      "price": 132999,
+      "img": "https://m.media-amazon.com/images/I/61cMQeVEGKL._SL1500_.jpg"
+    },
+    {
+      "id":205,
+      "Brand": "Brand: Apple",
+      "name": "Apple iPhone SE (256 GB) - Midnight (3rd Generation)",
+      "price": 64999,
+      "img": "https://m.media-amazon.com/images/I/61cMQeVEGKL._SL1500_.jpg"
+    },
+    {
+      "id":206,
+      "Brand": "Brand: onePlus",
+      "name": "OnePlus 11 5G (Eternal Green, 16GB RAM, 256GB Storage)",
+      "price": 63999,
+      "img": "https://m.media-amazon.com/images/I/61amb0CfMGL._AC_UY327_QL65_.jpg"
+    },
+    {
+      "id":207,
+      "Brand": "Brand: onePlus",
+      "name": "(Renewed) OnePlus 5 (Midnight Black, 6GB RAM, 64GB Storage)",
+      "price": 10999,
+      "img": "https://m.media-amazon.com/images/I/61uupH-LTjL._AC_UY327_QL65_.jpg"
+    },
+    {
+      "id":208,
+      "Brand": "Brand: onePlus",
+      "name": "OnePlus Nord CE 2 Lite 5G (Blue Tide, 6GB RAM, 128GB Storage)",
+      "price": 18999,
+      "img": "https://m.media-amazon.com/images/I/71AvQd3VzqL._AC_UY327_QL65_.jpg"
+    },
+    {
+      "id":209,
+      "Brand": "Brand: onePlus",
+      "name": "OnePlus Nord 2T 5G (Gray Shadow, 8GB RAM, 128GB Storage)",
+      "price": 28999,
+      "img": "https://m.media-amazon.com/images/I/617MPEZB5mL._AC_UY327_QL65_.jpg"
+    },
+    {
+      "id":210,
+      "Brand": "Brand: onePlus",
+      "name": "(Renewed) OnePlus 5T (Midnight Black, 64GB)",
+      "price": 9999,
+      "img": "https://m.media-amazon.com/images/I/51JYkrgR4QL._AC_UY327_QL65_.jpg"
+    },
+    {
+      "id":211,
+      "Brand": "Brand: Samsung",
+      "name": "Samsung Galaxy S23 Plus 5G (Cream, 8GB, 256GB Storage) Galaxy Watch4 Bluetooth and",
+      "price": 97998,
+      "img": "https://m.media-amazon.com/images/I/41VWT06rfnL._AC_UY327_QL65_.jpg"
+    },
+    {
+      "id":212,
+      "Brand": "Brand: Samsung",
+      "name": "Samsung Galaxy M33 5G (Mystique Green, 6GB, 128GB Storage) | 6000mAh Battery | Upto 12GB RAM with RAM Plus | Travel Adapter to be Purchased Separately",
+      "price": 15999,
+      "img": "https://m.media-amazon.com/images/I/81I3w4J6yjL._AC_UY327_QL65_.jpg"
+    },
+    {
+      "id":213,
+      "Brand": "Brand: Samsung",
+      "name": "Samsung Galaxy S23 Ultra 5G (Green, 12GB, 256GB Storage)",
+      "price": 124999,
+      "img": "https://m.media-amazon.com/images/I/61VfL-aiToL._AC_UL480_QL65_.jpg"
+    },
+    {
+      "id":214,
+      "Brand": "Brand: Samsung",
+      "name": "Samsung Galaxy M04 Light Green, 4GB RAM, 64GB Storage | Upto 8GB RAM with RAM Plus | MediaTek Helio P35 | 5000 mAh Battery",
+      "price": 8999,
+      "img": "https://m.media-amazon.com/images/I/814ePfNubRL._AC_UY327_QL65_.jpg"
+    }
+  ],
+  "PopularProducts": [
+    {
+      "id":301,
+      "Brand": "Brand: Apple",
+      "name": "Apple iPhone 14 Pro Max 128GB Gold",
+      "price": 132999,
+      "img": "https://m.media-amazon.com/images/I/61cMQeVEGKL._SL1500_.jpg"
+    },
+    {
+      "id":302,
+      "Brand": "Brand: Nike",
+      "name": "Nike Mens Renew Run 3 Sneaker",
+      "price": 7490,
+      "img": "https://m.media-amazon.com/images/I/41AlzQjqnbL._UX695_.jpg"
+    },
+    {
+      "id":303,
+      "Brand": "Brand: onePlus",
+      "name": "OnePlus 11 5G (Eternal Green, 16GB RAM, 256GB Storage)",
+      "price": 63999,
+      "img": "https://m.media-amazon.com/images/I/61amb0CfMGL._AC_UY327_QL65_.jpg"
+    },
+    {
+      "id":304,
+      "Brand": "Brand: Hp",
+      "name": "HP Pavillion",
+      "price": 73299,
+      "img": "https://m.media-amazon.com/images/I/51DmOWr3rnL._AC_UY327_QL65_.jpg"
+    },
+    {
+      "id":304,
+      "Brand": "Brand: Samsung",
+      "name": "Samsung Galaxy S23 Ultra 5G (Green, 12GB, 256GB Storage)",
+      "price": 124999,
+      "img": "https://m.media-amazon.com/images/I/61VfL-aiToL._AC_UL480_QL65_.jpg"
+    }
+  ],
+  "Footwear": [
+    {
+      "id": 1,
+      "name": "Puma",
+      "price": 3150,
+      "color": [
+        "white",
+        "red",
+        "brown"
+      ],
+      "img": "https://m.media-amazon.com/images/I/7189bcbFMTS._UX695_.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Shuperb",
+      "price": 2150,
+      "color": [
+        "grey",
+        "brown"
+      ],
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRImtVpF4ERYruIFdUxEcGMtbvNhYQiDWOKHw&usqp=CAU"
+    },
+    {
+      "id": 3,
+      "name": "Adidas",
+      "price": 5000,
+      "color": [
+        "white",
+        "black",
+        "brown"
+      ],
+      "img": "https://media.istockphoto.com/id/458068097/photo/adidas-superstar.jpg?s=612x612&w=0&k=20&c=cBTSduk5_pPHdQi-Qz_YgJrkceHM4Wk4oDww5O_vwaw="
+    },
+    {
+      "id": 4,
+      "name": "SparX",
+      "price": 4000,
+      "color": [
+        "blue",
+        "black",
+        "brown"
+      ],
+      "img": "https://rukminim1.flixcart.com/image/832/832/l09w8sw0/shoe/l/h/g/6-sm-707-6-sparx-blue-original-imagc2vpdgvpbbzu.jpeg?q=70"
+    },
+    {
+      "id": 5,
+      "name": "Sole",
+      "price": 4500,
+      "color": [
+        "grey",
+        "brown"
+      ],
+      "img": "https://rukminim1.flixcart.com/image/832/832/j4pwsy80-1/shoe/2/q/s/uwebs0133ab-sku-6-10-8-urbanwhiz-black-original-imaeub4tjxweagqu.jpeg?q=70"
+    },
+    {
+      "id": 6,
+      "name": "Flatspot",
+      "price": 1420,
+      "color": [
+        "black",
+        "white"
+      ],
+      "img": "https://cdn.shopify.com/s/files/1/1202/6102/products/dc-x-skateboard-cafe-kalis-og-shoes-light-grey-1_400x464_crop_center.progressive.jpg?v=1673963055"
+    },
+    {
+      "id": 7,
+      "name": "Reebook",
+      "price": 24820,
+      "color": [
+        "white"
+      ],
+      "img": "https://media.gq-magazine.co.uk/photos/62348d984a3c05ad1e218fc9/master/w_1920,h_1280,c_limit/1603032022_Reebok_04.jpeg"
+    },
+    {
+      "id": 8,
+      "name": "Bata",
+      "price": 8942,
+      "color": [
+        "white",
+        "red",
+        "brown"
+      ],
+      "img": "https://www.bata.in/dw/image/v2/BCLG_PRD/on/demandware.static/-/Sites-bata-in-master-catalog/default/dw8f2e447b/images/large/8213072_1.jpeg?sw=1634"
+    },
+    {
+      "id": 9,
+      "name": "Jordan",
+      "price": 80000,
+      "color": [
+        "white",
+        "red",
+        "black"
+      ],
+      "img": "https://www.highsnobiety.com/static-assets/thumbor/nI3VcQHauvbw62L6WpDwSXoTS3A=/1600x1067/www.highsnobiety.com/static-assets/wp-content/uploads/2021/02/12163548/air-jordan-1-university-blue-release-info-02.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Campus",
+      "price": 999,
+      "color": [
+        "white",
+        "grey",
+        "black"
+      ],
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIBOSUuJmIddWtJKawQyCOn_ijRsQzsB5z9Q&usqp=CAU"
+    },
+    {
+      "id": 11,
+      "name": "Nike",
+      "price": 7999,
+      "color": [
+        "white",
+        "blue"
+      ],
+      "img": "https://images.stockx.com/images/Nike-Dunk-Low-Retro-QS-Flash-White-Argon-Blue-Flash-Product.jpg?fit=fill&bg=FFFFFF&w=1200&h=857&fm=webp&auto=compress&dpr=2&trim=color&updated_at=1658842672&q=75"
+    },
+    {
+      "id": 12,
+      "name": "Louis Vuitton",
+      "price": 4999,
+      "color": [
+        "white",
+        "brown"
+      ],
+      "img": "https://m.media-amazon.com/images/I/61K5sZNSC9L._UL1000_.jpg"
+    }
+  ],
+  "Shirts": [
+    {
+      "id": 401,
+      "brand": "Mufti",
+      "price": 2999,
+      "color": [
+        "white",
+        "brown"
+      ],
+      "img": "https://m.media-amazon.com/images/I/71gXsUlT+jL._UX569_.jpg"
+    },
+    {
+      "id": 402,
+      "brand": "H & M",
+      "price": 1499,
+      "color": [
+        "pink",
+        "purple"
+      ],
+      "img": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTGBgp4_ZBHaEEt1FOyzVz65N3VdmCMMcOdPopj_Ri-EwWLI1gG"
+    },
+    {
+      "id": 403,
+      "brand": "Roadstar",
+      "price": 1099,
+      "color": [
+        "white",
+        "black"
+      ],
+      "img": "http://res.cloudinary.com/netq-recipes/image/upload/v1530796465/bjtwwvunfjaddo221yyz.jpg"
+    },
+    {
+      "id": 404,
+      "brand": "Rodeo",
+      "price": 1799,
+      "color": [
+        "white",
+        "black"
+      ],
+      "img": "https://i.etsystatic.com/34588671/c/1561/1240/693/366/il/4503cd/4544224173/il_340x270.4544224173_sull.jpg"
+    },
+    {
+      "id": 405,
+      "brand": "Arrow",
+      "price": 2599,
+      "color": [
+        "Sky blue",
+        "navy"
+      ],
+      "img": "https://m.media-amazon.com/images/I/518r3ZPkEUL.jpg"
+    },
+    {
+      "id": 406,
+      "brand": "HRX",
+      "price": 1299,
+      "color": [
+        "green-blue",
+        "black-navy"
+      ],
+      "img": "http://assets.myntassets.com/assets/images/14281646/2021/11/8/23bde715-5c7a-4962-bcdf-d8ccf5abed391636371947948-HRX-By-Hrithik-Roshan-U-17-Active-Girls-Neon-Lime-Rapid-Dry--1.jpg"
+    },
+    {
+      "id": 407,
+      "brand": "Allen solly",
+      "price": 2099,
+      "color": [
+        "white",
+        "brown"
+      ],
+      "img": "https://imagescdn.allensolly.com/img/app/product/7/734740-8193429.jpg?auto=format"
+    },
+    {
+      "id": 408,
+      "brand": "Biba",
+      "price": 3999,
+      "color": [
+        "white",
+        "brown"
+      ],
+      "img": "https://rukminim1.flixcart.com/image/832/832/ksgehzk0/salwar-kurta-dupatta/5/l/q/36-skddurgotsa7572-biba-original-imag6yzgxfjcgnab.jpeg?q=70"
+    },
+    {
+      "id": 409,
+      "brand": "Gucci",
+      "price": 8799,
+      "color": [
+        "white",
+        "brown"
+      ],
+      "img": "https://cms.brnstc.de/product_images/1122x1536_retina/cpro/media/images/product/22/6/100136840411000_0_1655217691761.jpg"
+    },
+    {
+      "id": 410,
+      "brand": "Levi's",
+      "price": 999,
+      "color": [
+        "white",
+        "brown"
+      ],
+      "img": "https://m.media-amazon.com/images/I/A1K950823oL._UY550_.jpg"
+    },
+    {
+      "id": 411,
+      "brand": "Monte Carlo",
+      "price": 2599,
+      "color": [
+        "white",
+        "brown"
+      ],
+      "img": "https://m.media-amazon.com/images/I/91kzIuftlIL._UY550_.jpg"
+    },
+    {
+      "id": 412,
+      "brand": "Peter England",
+      "price": 1399,
+      "color": [
+        "white",
+        "brown"
+      ],
+      "img": "https://assetscdn1.paytm.com/images/catalog/product/A/AP/APPPETER-ENGLANADIT50996C157E7E4/1562974851991_0..jpg"
+    }
+  ],
+  "Pants": [
+    {
+      "id": 501,
+      "brand": "Mufti",
+      "price": 2999,
+      "color": [
+        "white",
+        "brown"
+      ],
+      "img": "https://www.muftijeans.in/media/catalog/product/cache/72ecbf8444b2c4d1e625f30416db39ce/1/_/1_mft-17189-p-89-stone_2.jpg"
+    },
+    {
+      "id": 502,
+      "brand": "H & M",
+      "price": 1499,
+      "color": [
+        "pink",
+        "purple"
+      ],
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8QsLtEfsXjUxAk4jLPD2LIuwsplPfqB5mBQ&usqp=CAU"
+    },
+    {
+      "id": 503,
+      "brand": "Roadstar",
+      "price": 1099,
+      "color": [
+        "white",
+        "black"
+      ],
+      "img": "https://m.media-amazon.com/images/I/616NBgSKg8L._UX385_.jpg"
+    },
+    {
+      "id": 504,
+      "brand": "Rodeo",
+      "price": 999,
+      "color": [
+        "white",
+        "black"
+      ],
+      "img": "https://cdn.shopify.com/s/files/1/0266/6276/4597/products/100001_300788923001_1_1024x1024.jpg?v=1669706944"
+    },
+    {
+      "id": 505,
+      "brand": "Arrow",
+      "price": 3099,
+      "color": [
+        "Sky blue",
+        "navy"
+      ],
+      "img": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBESEhEREREREhERDxERERISEREREhISGBQZGRkUGRgcIS4lHB4rHxgYJjgmKy8xNTU1GiQ7QD00Py40NTEBDAwMDw8QGhISGDQhISE0NDQxNDE0NDQ0NDE0MTE0MTQ0NDE/MTQxNDQ0NDQxNDE/MTQxNDQ0NDQxNDExPzExMf/AABEIAPYAzQMBIgACEQEDEQH/xAAcAAACAgMBAQAAAAAAAAAAAAABAgAHAwYIBQT/xABCEAACAQMBAwoBCAcIAwAAAAABAgADBBESBSExBgcTIkFRYXGBkaEUIzJCUnKSsSQzYoLB0fAlQ1NzorLC4RWD8f/EABgBAQADAQAAAAAAAAAAAAAAAAABAgME/8QAHhEBAQEAAgIDAQAAAAAAAAAAAAECETEDIRIiMkH/2gAMAwEAAhEDEQA/ALXzJBJOZuIjRIwgMJ5e3Xwq+ZPwnpEzW9t3etgFzoG7Pee0yL0tic6Y9gqflBbTldDAt3cPzxNnAxPH5M9YVD9XUoB8cb9/tPb0zo8f5Z+W86F94z/KMeyKh7IW4+QmjIICf63RsdnvuisN8BVE1nl456KjTH16wdj4IOHuQfSbRw3nhNT5W3aVDRpDiHZzkEHqrp7ezrH2lN361fxz7R8djvpjym2bKXFGn93Pqd81LZKHSwPYTNu2YfmU+7j2M5c9unydPqMUwmKZdihimMYpgKYDDFMAQGEwGEAYsYxYH1ySSSqySZmOrWVBv49gHGeXc3TPuzhfsjt8zCZm1nvLrX1FPV7T9rwHhPE2s4RCTPprXC0xknE0flTe3FdHehlKNsNdWuchFII0oD9ZycADxESctOZmLR2TadHRRPradTeLtvP8vSehnsMqPYfOm6hUvaIcDd0tLqv5sh3HzBHlLB2VypsrrHQ3FMsf7tjofy0neZ1RyX3XtjjJ2n07D3SKRADx8ye3+uEshD3d/hDgD4wZ3+PrMFe6ppk1KlNfvOq/mYGVt/Hh2TRuUyfpynO7oFAHcdRzNiuOU1hTHXu7cY7qiN+RM1Ha21qNe6o1KLh6b0uqwyM6XKncZn5fy18V+z27dAqT39lfqU8j+Zmu1XwnpNns6eimi9yqPhObPbbyX0ymKYximXZAYIximApimMYpgAwSGCQgDFjGLAzV660xljiedV2jv3kIDkgdpE8fat8/T/OHRRRHYnJyzhgAoHfjJng3ts9RzVaq2ljpUI2FVTwX8pXl158U49thqbR1s2jeF4nPHwzFtTWqfq6ZbfuY9VB6mZNh7F6ql1K09x0ni57z+z+c2hFAAAAAG4ADAAk8s9amfUeFQ5OBjquXLn7CZVB4E8W+E8HnXfotnU6NNVSnUuEVguFAVQXUAfeVT6TfZTfO5tUVLtLdTkWyYcZ3dI+CRjvAx7y2JzWOtWxoDdg4jIkZgePx3yBoDN2L7aW2rumAKd3c01yAFSvUVR5ANiM+27xvpXl2fA3VfHtqxPMb+IjiBkrV3fOt3ckYOtmcnwOZhVF3HSvDuEOYM4gMfKbRycumqVbQHOaVN6WcbtIfUoHjhz7zVsme5yNd/ldNCcrvbH7RwM/ASu/yvj9RcVKnrein2nXPkN5+AM2ua/synmsh+wjH4Y/iZsE58t/JfYGKYximWZgYpjGKYAMUwmKYAMBhMBgKYsYxYQ+PbWyemGUwHHDJwNXYxnybJ2EUqO9REIwNGkniMDJXgTu4nvmwySrWeTUnAwxYZKhhOd+Wdek+0LxqWdBuX35LAuDhyD3FwxHhidD6sb+4Z9pzLeEGo5AwC7kDuBYzTx9s9Pm0g8DFkZR34iFyOO8d81UFoYpbMIMA6u8QbvGNkQwFG7vm3c29Fal04ZDrRUdW7FUawwPmSn4TNTLSzubKglO1eqfp1KjZY/ZXcBK7v1a+Kc6iwtkA9I5I4KAPeexPH2PU67D7Shh6GevMJ003+gMBhMBkqAYhjGKYAMUwmAwAYpjGKYCmLGMWB9ckkkqlIYJJIj/Rbfjqnf3buM5mufpv99vznTazmvbVPRc3CYxouayYxjGmow4ek08amnwEzGwHj6CZIDNWbBnH/X8oVMLiGjbuabVMZpo6ozdzspKg+YVvaEiG744mMRhCBc7pvNhcPR2TRVFJqV6qKnH67k43eAM0dKetlQEDWwXJ4DJxmWPa1kp0benp1taqNDuOjXUAV1kE7zgkDzme7HR4JbbW87Hd1qUUI1OE65G4AY3zZ5rfJB2qK1U8DheO/VxO7s3Ee4myTJbyXnQGAyGQyWZTFMJgMgKYpjGKYAMBhMUwAYkYxYH2QSSSEpCIIRAYSgOX9r0e0rtcYDVTUHjrAcn3Yy/xKd54LTTd0quP1tuAfNGI/wCQmmO1ddK9gMMBmzMjSyeb/k4t5snaNMjr1a4NJu1XpqCh/FkeRMreX3zV2nR7Mot21XqVPQtgflKavETIoR0ZGZHBVlYqyniGBwR7iEGbvzsbB+TXhuEHzV31/BaqgB19dzerTRhLS8wsZFJBDAkMpBBHEEcCJne7qO6u9RmKkEZ4ZHh2z58wiOJSWxc3NDdNUtroMcsLkMcnJ6yD+UsAyquZmv8AOXdPPFKdQDx1MD/CWqZjrtedAYDCYDKpKYpjGKYAMUwmAwFMUxjFMAGLCYIH1ySSSEpCIBCIDCV5zxWuq2t6wH6uuUJ8HQkfFPjLDE1vnCtOl2ZdDtRFrDw0OGP+kMPWWzeKiufzIYWimdDIJ0pyTteisLOnnJW1pEnGN7IGPxM5rxOmOTd0KtnaVApUPbUiFPZ1APbtmW1svg5d7D+W2NamoBqovS0f8xBnT+8Mr6znQ/1ncZ1bOeOcPZQtdo10UYSpi4Qdml85/wBQaMX+Go1sQiKIZqq3nmoutG0UTO6rQq08eIAcfBDLvM525D1+j2jZPnH6Si58Hyh+DmdEGY77Xz0himMYplFgMUwmKZABgMhgMBTAYTFMAGIYximB9kMEkJEQwQiAwnzbSoipRrId4elUUjvypn0CMJI5cdSDg8RuPn2xJ6O3aQS6uVHBbiqB+MzzzOiMgE6G5vq/SbLsznJSloP7jFQPYCc8Ay+OalidmU/CtWA8tUpvpOW5SuueHY61LandqPnLdwjHvpueB8mwfU98sSfDtuwW5tq9u3CrSdBnsYjqn0OD6TPN4q9jmMQyVKbKxVwVZWKup4qwOCp8QcyCdDN9Wz6/R1KdTsp1KbnHHCsCfynTFtcJURKiEMjorowOQVYZE5eC93r4zoLkHthLuxpOAFekBQqIoACuijgOwEFT6zLcTlsZgMJgMyaFMUxjFMBTAYTFMBTFMYxTCCmAwmAwPrkgkhJoRFhgOIRFEYQOf+X1g1DaF0rDAqVDWpnsZH3gjyOR5qZrMsTnjz8sonG75KuD3nW//UroTozfTLXZsS+Oaw/2XS3Y+crDz6/GUOJ0TyGoqmzLEJwa2p1D99xrb4sR6Su+k57e9JJBMWii+dbZi0NoGoi6UuaYq+GsHS598H1mlAzoHl9yZG0LbqYFxQ1vRY9uR1qZ8GwPUCc+kHJBG8biJvm8xlqe2VTLP5mXfXeJq6hSk+n9vJGfaVWGnvclNvvY3KV03pkLVT7dMnrDzHEeMnU5hL7dFQRaVRXVXQ5V1DKR2qRkGMZztQMUwmAwFMUxjFMBTFMJgMBTBIYIQ+qGCSVSIjCLCIDiERRGEsKg55qgNzaJ9i3dm78M+7/aZW53yyeeWji5tX+3bun4Hz/zlc4nRnpnrsF4zorkMD/4yxz2Wy+2Tj4TnbM6C5vKmrZdpk50oyeztj4Snk6MtkkkkmTRJQ3OdsAWd4zoMUrotWQdiOT118snI85fM0vnV2V0+z3qKCalq61lxx0Z0uPLSdX7ol8Xiq6npRK7/OOo7v8A7EK90KNN2a6+anbpuLVraoc1LUqBni1Fs6fYgj275vZlG82G0Oi2hTUnC10ekfMjUvxWXlMNTitM3mFMUxjFMosBimMYpgIYDGMUwFMBhMBgfTJJJKgwwQiAwjCKIwlhWnPNb5p2lT7L1E8tShv+MqUy7+dqkG2dqxvS4pkeGcgykDNsX0y12EvjmrqatmU/2atZfZ/+5Q8vHmiP9mgd1zW+JEb6Tntu8kkkxaJErUw6sjDKupVh3gjBjyQOYdr2Rtrmvbn+5rVE9A274YnyzfOeDZfR3qXKjCXVJdWP8RBpOfNdHsZoCnsnTm8xlZ7fZYXTUqiVU+lTdKijOMlWBx5HGJ0rZ3SVadOqhylREdT+yygj85zCh3y8eazaPS2IpE5e2dkx3Iesv5mZ+SeuU5rcjAYximZNCmKYxgMBDAYTAYCGAxjFMIfTJJDCUEYRRGEBhCIojCBq/OTQ17LuT/h9HU9nUH4EygyJ0jyntelsbymBkva1gv3tBK/ECc3Ga46Z6AS6+Z4/oNQd1y3xUSlBLo5nD+h1vC5P+xZbfSM9rAxJDJMWoYkxDBCGnc6OyPlGz3dV1PbMK6446BufH7pJ9JQZE6rqIGVlYZVlKsO8EYInM/KDZxtbq4t+ylVdV+5nK+e4jfNMX+Kaecpm/c0m0ujvWoscJc0Sv/sTrIfbWPUTQBPR2Lem3uKFcbuiqo58get8My+pzETt0uYphRwyqw4MoYeRG6QzBoQiKRMhEUiAhEUiZDFMgIRFxMhi4kjLIJJBISMYRYRAaERcwiBHGVYd6kfCcw3NLQ7J9h2T8JI/hOn5VHKzm8VanTUK+lazsWR0LlXJLEhgRkeGJpnUnatzb0rIS6uZ1cWVU99y2fwLNAuORNVEZxUV8IxGFKnUBuGDLP5s9p0K9hTWki0npdSuiDHzmN79/W47/GTqyz0j43N9tvkgkmaySSSQJKa55Nl6LqjdqOrcUujfdwqJwPqhH4DLknzX9jRrp0denTqpqDaKihlyDkHBls3ios5cvqM7hvPcN59ptnJLkXVvKgFRhRpqFdtYOuomoAqo7Dv4nvljcp9nUadai1OjTQdCy4SmiDc3cB4z5rO6NN0qLxU7x3jtEm+S88RfPhlzzy3umioqoowqqFUdwAwBCYtKorqrqQVZQwIOQQRuhMoqBgMhMBgQwGQwGADFhMWBlkhxBISIMMXMgMB8wxRDiAZ5HKRCaaEfVcZ9QRPWxPH5TPikPFxn0BMJx+o8J1ymM78zX+bek9vti8t/7trepUwOG6qjIfQVGHrPeSrkefCeVzeP0209o3AHVSmlBT5t1h70/wApbPVX8v8AFo6pNUw64ekEryzZdUOZi1CHVJD6oMxdUGqBrfLMMBbuAMCo6N3jUmoH/R8Z4K1BjhvzNr5UUDUtamONPTUH7rAn4Zml2z588fGRY18d5nDYeRV0wFxavn5mp0lDPbQqHUAPBX1rjw7sTaCZo1lddFcW1TcF1m3qE9iVNyn0cJ6EzeJNZanFQmAmExTABMGZCYpMIQmLmQmDMD7ykXRMkkJYGpxChn0mCRwPlyRD0k+gqJjemDHAUVhNR5YbUp9LTt89YUTVIHHDNpH+1ptFakQCR2SjOcOq42jUbJUhKYQqSCF09h88y0nyvB8vjeW7WlTzIG/M+zmxo0x/5JkIZW2i+lhw0lA2M9wLESna+1Lh10NWqFDxXUQCO444+stHmkD07OqTuWpclk8QEVfzBlvj8cmtzVnpZRWYmEwrUJjgzPgKQ0Ul5nEOY4Hz9Ow7JBd94mVgJgakDxjgPUrpUVqbHc6sh8mGDKd2ZykpDKVXCOjMhJ+ixU4yD44lp3FoQMod/cZSPK/YlS3uar9G/Ru7OraSVBY5Zc+eZfMl9U+Vz7j1uUPKWmaTUaD63cgmov0UwQ3HtO6WvyV2v8rs7e4P0nTS/hUXqsPcGc+bP2fUr1BTprksceA8TL45J7OW0taduuTpyzsfrVGOWP8AD0k6kk4V+V1ea2EvAWiKY8osUxSI+YIQxmCZDBA9HMBMkkkLmTMkkhJZJJICsJrW3uSFpeENUDKwGAyHBkkkwfBZ83mzqfWNNqv+YxYe3AzZbe0p0wERFRQMAKAAB3Ykki1WM5SLJJIWhhJmSSBIuJJIAYTBVoI25lDDuIBEkkkYKGz6CHNOlTQk5JVAufafYgxJJIQyQySQJBJJJEgMkkD/2Q=="
+    },
+    {
+      "id": 506,
+      "brand": "HRX",
+      "price": 1299,
+      "color": [
+        "green-blue",
+        "black-navy"
+      ],
+      "img": "https://cdn.fashiola.in/L100130365/hrx-men-trousers-men-striped-thyme-terry-track-pants.jpg"
+    },
+    {
+      "id": 507,
+      "brand": "Allen solly",
+      "price": 3099,
+      "color": [
+        "white",
+        "brown"
+      ],
+      "img": "https://cdn.shopify.com/s/files/1/0613/8622/7909/products/190929-COH-0481_1800x1800.jpg?v=1668239322"
+    },
+    {
+      "id": 508,
+      "brand": "Biba",
+      "price": 2599,
+      "color": [
+        "white",
+        "brown"
+      ],
+      "img": "https://cdn.shopify.com/s/files/1/0551/9015/9499/products/1CROPHALF_765x.jpg?v=1660187094"
+    },
+    {
+      "id": 509,
+      "brand": "Gucci",
+      "price": 8799,
+      "color": [
+        "white",
+        "brown"
+      ],
+      "img": "https://cdn.fashiola.in/L89253371/gucci-tapered-striped-logo-intarsia-cotton-track-pants.jpg"
+    },
+    {
+      "id": 510,
+      "brand": "Levi's",
+      "price": 999,
+      "color": [
+        "white",
+        "brown"
+      ],
+      "img": "https://m.media-amazon.com/images/I/81TgxMk-sUL._UX679_.jpg"
+    },
+    {
+      "id": 511,
+      "brand": "Monte Carlo",
+      "price": 3599,
+      "color": [
+        "white",
+        "brown"
+      ],
+      "img": "https://m.media-amazon.com/images/I/711qSw7i9fL._UL1500_.jpg"
+    },
+    {
+      "id": 512,
+      "brand": "Peter England",
+      "price": 1799,
+      "color": [
+        "white",
+        "brown"
+      ],
+      "img": "https://imagescdn.peterengland.com/img/app/product/8/81954-204498.jpg?auto=format&w=494.40000000000003"
+    }
+  ]
+}
